@@ -1,4 +1,3 @@
 if (null == pickingHead.getCode()) {
-            pickingHead.setCode(genPickCode(pickingHead.getBizLineCode()));
-           lineList.forEach(item -> item.getPickLine().setStorageOutPickingCode(pickingHead.getCode()));
-        }
+    pickingHead.setTags(WmsTagUtils.appendTags(pickingHead.getTags(), TagEnum.PDL));
+ }
