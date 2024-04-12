@@ -1,3 +1,2 @@
-if (null == pickingHead.getCode()) {
+
                pickingHead.setTags(WmsTagUtils.appendTags(pickingHead.getTags(), TagEnum.PDL));
- }
