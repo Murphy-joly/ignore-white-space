@@ -1,4 +1,6 @@
 1233
+3333333
+444444
     pickingHead.setTags(WmsTagUtils.appendTags(pickingHead.getTags(), TagEnum.PDL));
 
     ...
